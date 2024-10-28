@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Breathing Exercise</h1>
+
+        <!-- Total Points Section -->
+        <div class="points-section">
+            <h2>Total Points: <span id="totalPoints">0</span></h2>
+            <button class="btn" id="add2">+2</button>
+            <button class="btn" id="add5">+5</button>
+            <button class="btn" id="add10">+10</button>
+            <button class="btn" id="add20">+20</button>
+            <button class="btn" id="subtract1">-1</button>
+        </div>
+
+        <!-- Rank Section -->
+        <div class="rank-section">
+            <h2>Rank: <span id="rank">Beginner</span></h2>
+        </div>
+
+        <!-- Streak Section -->
+        <div class="streak-section">
+            <h2>Streak: <span id="streakDays">0</span> <span class="fire-symbol">🔥</span></h2>
+            <button class="btn" id="increaseStreak">+1</button>
+            <button class="btn" id="decreaseStreak">-1</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
